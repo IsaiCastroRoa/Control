@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container">
+        <center><h2>USUARIOS</h2></center>
+    <form>
+            <div class="form-row">
+                <div class="form-group col-md-4">
+                    <label for="id" class="sr-only">Id usuario</label>
+                    <input type="number" class="form-control" name="id usuario" placeholder="Id usuario">
+                </div>
+                <div class="form-group col-md-8">
+                    <label for="nombre" class="sr-only">Nombre</label>
+                    <input type="text" class="form-control" name="nombre" placeholder="Nombre">
+                </div>        
+            </div>
+                <hr>
+            <div class="form-row">
+                <div class="form-group col-md-4">
+                    <label for="id tipo documento" class="sr-only">Id tipo documento</label>
+                    <select class="form-control" id="exampleFormControlSelect1">
+                        <option>Tipo de documento</option>
+                        <option value="1">Targeta de identidad</option>
+                        <option value="2">Cédula</option>
+                        <option value="3">Cédula extranjera</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-8">
+                    <label for="documento" class="sr-only">Documento</label>
+                    <input type="text" class="form-control" name="documento" placeholder="Documento">
+                </div>
+            </div>
+                <hr>
+            <div class="form-row">
+                <div class="form-group col-md-4">
+                    <label for="id rol" class="sr-only">Id rol</label>
+                    <input type="number" class="form-control" name="id rol" placeholder="Id rol">
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="id estado" class="sr-only">Id Estado</label>
+                    <input type="number" class="form-control" name="id estado" placeholder="Id estado">
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="id curso" class="sr-only">Id curso</label>
+                    <input type="number" class="form-control" name="id curso" placeholder="Id curso">
+                </div>
+            </div>
+                <hr>
+            
+            <button type="submit" class="btn btn-primary  btn-lg btn-block">Guardar</button>
+        </form>
+        
+    </div>
+    <br>   <br> 
+    <div class="container">
+            <center>
+                <button type="button" class="btn btn-danger btn-lg btn-block">BORRAR</button>
+                <button type="button" class="btn btn-warning btn-lg btn-block">BUSCAR</button>
+            </center>
+    </div>
+    <br>   <br> 
+
+
+    <div class="container">
+        <table class="table table-xs">
+                <thead class="thead-dark">
+                    <tr>
+                    <th scope="col">Id</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Tipo documento</th>
+                    <th scope="col">Documento</th>
+                    <th scope="col">Rol</th>
+                    <th scope="col">Estado</th>
+                    <th scope="col">Ficha</th>
+                    
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Targ. Identidad</td>
+                    <td>1005454345</td>
+                    <td>Salió</td>
+                    <td>Aprendiz</td>
+                    <td>1835672</td>
+                    </tr>
+                    <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Cédula</td>
+                    <td>1005454346</td>
+                    <td>Entró</td>
+                    <td>Aprendiz</td>
+                    <td>2345651</td>
+                    </tr>
+                    <tr>
+                    <th scope="row">3</th>
+                    <td>Larry</td>
+                    <td>Cédula extranjera</td>
+                    <td>1005454347</td>
+                    <td>Entró</td>
+                    <td>Instructor</td>
+                    <td>No aplica</td>
+                    </tr>
+                </tbody>
+            </table>
+    </div>
+    
+        
+
+  
+       
+        
+</body>
+</html>

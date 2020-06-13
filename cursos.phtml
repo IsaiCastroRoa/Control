@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <center><h2>CURSOS</h2></center>
+        <form>
+                <div class="form-row">
+                    <div class="form-group col-md-2">
+                        <label for="id" class="sr-only">Id curso</label>
+                        <input type="number" class="form-control" name="id curso" placeholder="Id curso">
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label for="ficha" class="sr-only">Ficha curso</label>
+                        <input type="number" class="form-control" name="numero curso" placeholder="Ficha curso">
+                    </div>
+                    <div class="form-group col-md-8">
+                        <label for="curso" class="sr-only">Curso</label>
+                        <input type="text" class="form-control" name="curso" placeholder="Curso">
+                    </div>        
+                </div>
+                    <hr>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="nivel curso" class="sr-only">Nivel curso</label>
+                        <input type="text" class="form-control" name="nivel curso" placeholder="Nivel curso">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="jornada" class="sr-only">Jornada</label>
+                        <input type="text" class="form-control" name="jornada" placeholder="Jornada">
+                    </div>
+                </div>
+                    
+                    <hr>
+                
+                <button type="submit" class="btn btn-primary  btn-lg btn-block">Guardar</button>
+            </form>
+            
+        </div>
+        <br>   <br> 
+        <div class="container">
+                <center>
+                    <button type="button" class="btn btn-danger btn-lg btn-block">BORRAR</button>
+                    <button type="button" class="btn btn-warning btn-lg btn-block">BUSCAR</button>
+                </center>
+        </div>
+        <br>   <br> 
+
+
+        <div class="container">
+            <table class="table table-xs">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th scope="col">Id</th>
+                            <th scope="col">Ficha</th>
+                            <th scope="col">Curso</th>
+                            <th scope="col">Nivel</th>                    
+                            <th scope="col">Jornada</th>                    
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>1835668</td>
+                            <td>ADSI</td>
+                            <td>Tecnólogo</td>                                               
+                            <td>01:00 pm - 06:00 pm</td>                                               
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>3434567</td>
+                            <td>Adm. Empresas</td>
+                            <td>Tecnólogo</td>                        
+                            <td>06:00 am - 01:00 pm</td>                        
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>9120456</td>
+                            <td>Música</td>
+                            <td>Técnico</td>                    
+                            <td>01:00 pm - 06:00 pm</td>                    
+                        </tr>
+                    </tbody>
+                </table>
+        </div>
+</body>
+</html>

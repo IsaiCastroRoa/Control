@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <center><h2>UBICACIONES</h2></center>
+    <form>
+            <div class="form-row">
+                <div class="form-group col-md-4">
+                    <label for="id" class="sr-only">Id ubicación</label>
+                    <input type="number" class="form-control" name="id ubicacion" placeholder="Id ubicación">
+                </div>
+                <div class="form-group col-md-8">
+                    <label for="ubicacion" class="sr-only">Ubicación</label>
+                    <input type="text" class="form-control" name="ubicacion" placeholder="Ubicación">
+                </div>        
+            </div>
+                <hr>
+            <div class="form-row">
+                <div class="form-group col-md-10">
+                    <label for="descripcion" class="sr-only">Descripción</label>
+                    <input type="text" class="form-control" name="descripcion" placeholder="Descripción">
+                </div>
+                <div class="form-group col-md-2">
+                    <label for="id sede" class="sr-only">Id sede</label>
+                    <input type="number" class="form-control" name="id sede" placeholder="Id sede">
+                </div>
+            </div>
+                
+                <hr>
+            
+            <button type="submit" class="btn btn-primary  btn-lg btn-block">Guardar</button>
+        </form>
+        
+    </div>
+    <br>   <br> 
+    <div class="container">
+            <center>
+                <button type="button" class="btn btn-danger btn-lg btn-block">BORRAR</button>
+                <button type="button" class="btn btn-warning btn-lg btn-block">BUSCAR</button>
+            </center>
+    </div>
+    <br>   <br> 
+
+
+    <div class="container">
+        <table class="table table-xs">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">Id</th>
+                        <th scope="col">Ubicación</th>
+                        <th scope="col">Descripción</th>
+                        <th scope="col">Sede</th>                    
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Coordinación</td>
+                        <td>Piso 3, Bloque 1</td>
+                        <td>Modelo</td>                                               
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Ambiente bilingüismo</td>
+                        <td>Piso 2, Salon 7</td>
+                        <td>Centro</td>                        
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Biblioteca</td>
+                        <td>Piso 1, Bloque 3</td>
+                        <td>Modelo</td>                    
+                    </tr>
+                </tbody>
+            </table>
+    </div>
+    
+</body>
+</html>
