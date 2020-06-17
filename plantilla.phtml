@@ -10,7 +10,7 @@
 <body>
     <header class="container">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="../controlador/casa.php">Control-Covid19</a>
+        <a class="navbar-brand">Control Covid19</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -21,34 +21,43 @@
 
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
-            <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Personas
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="../controlador/usuario.php">Usuarios</a>
-                <a class="dropdown-item" href="../controlador/cliente.php">Cliente</a>
+            <li class="nav-item">
+                <a class="nav-link" href="../controlador/login.php">Login</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../controlador/inicio.php">Inicio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../controlador/loginsup.php">Login SuperUs</a>               
+            </li>                   
+            <li class="nav-item">
+                <a class="nav-link" href="../controlador/usuario.php">Usuarios</a>               
+            </li>
+            
             <li class="nav-item">
                 <a class="nav-link" href="../controlador/ubicacion.php">Ubicaciones</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="../controlador/cursos.php">Cursos</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../controlador/cliente.php">Cliente</a>
+            </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Informe
+                Consultas
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="../controlador/InfoUsuario.php">Usuario</a>
-                <a class="dropdown-item" href="../controlador/InfoUbicacion.php">Ubicacion</a>
-                <a class="dropdown-item" href="../controlador/InfoCurso.php">Curso</a>
+                <a class="dropdown-item" href="../controlador/TabUsuario.php">Usuario</a>
+                <a class="dropdown-item" href="../controlador/TabUbicacion.php">Ubicacion</a>
+                <a class="dropdown-item" href="../controlador/TabFicha.php">Ficha</a>
+                <a class="dropdown-item" href="../controlador/InfoUsuario.php">Informe de usuario</a>
+                <a class="dropdown-item" href="../controlador/InfoAmbiente.php">Informe de Ambiente</a>
+                <a class="dropdown-item" href="../controlador/InfoCurso.php">Informe de Ficha</a>
                 </div>
             </li>
             
-            <li class="nav-item">
-                <a class="nav-link" href="../vista/ingreso.phtml">Salir</a>
-            </li>
+           
         
             </ul>
         </div>
